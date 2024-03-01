@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <section>
+
+    </section>
+<script>
+    
+function createGrid(loops){
+    const grid = document.querySelector("section");
+    for(var i=0; i< loops; i++){
+        const div = document.createElement("div");
+        grid.append(div);
+    }
+}
+createGrid(16);
+</script>
+</body>
+</html>

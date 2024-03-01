@@ -1,0 +1,8 @@
+section{
+    display:flex;
+}
+section div{
+    border:1px solid black;
+    flex: 1 0 20%; margin: 5px;
+    height:200px;
+}
