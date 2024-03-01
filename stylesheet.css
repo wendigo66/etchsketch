@@ -1,8 +1,9 @@
 section{
     display:flex;
+    flex-wrap: wrap;
+    width: 960px;
+    border:1px solid black;
 }
 section div{
-    border:1px solid black;
-    flex: 1 0 20%; margin: 5px;
-    height:200px;
+    height:100px;
 }
